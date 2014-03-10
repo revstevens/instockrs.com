@@ -1,0 +1,225 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.center{
+	width: 900px;
+	padding: 10px 50px;
+	margin: 0 auto;
+}
+.main-gray{
+	background-color: #424344;
+}
+.light-gray{
+	background-color: #dbdad9;
+}
+.dark-gray{
+	background-color: #1e1e1e;
+}
+.grn-border-top{
+	border-top: 1px solid #6ab545;
+}
+.grn-border-bottom{
+	border-bottom: 1px solid #6ab545;
+}
+.clear{
+	clear: both;
+}
+
+/* HEADER SECTION */
+
+header{
+	height: 50px;
+	background: url(i/eta-header-bg.jpg) no-repeat top center;
+}
+#eta-logo{
+	position: absolute;
+	top: 22px;
+}
+.social-btn{
+	float: right;
+	margin: 5px 0 0 40px;	
+}
+#tagline{
+	margin: 22px 0 0 220px;
+	font-size: 28px;
+	font-family: 'asapbold';
+}
+
+#message{
+	height: 340px;
+	position: relative;
+}
+
+#no-man{
+	margin: 124px 0 0 0;
+	float: left;
+}
+
+.column{
+	width: 380px;
+	margin: 55px 0px 0 70px;
+	float: left;
+	font-size: 23px;
+	font-family: asapregular;
+}		
+#prod-map{
+	margin: 45px 0 0 55px;
+}
+#prod-sp,#prod-dres,#prod-drep,#prod-dinv{
+	position: absolute;
+	width: 101px;
+	height: 50px;
+	opacity: 0;
+	display: block;
+}
+#prod-sp{
+	right: 102px;
+	top: 85px;
+}
+#prod-dres{
+	right: 50px;
+	top: 147px;
+}
+#prod-drep{
+	right: 54px;
+	top: 209px;
+}
+#prod-dinv{
+	right: 100px;
+	top: 265px;
+}
+#prod-social{
+	width: 300px;
+	height: 50px;
+}
+
+#min-height{
+	min-height: 760px;
+}
+
+/* CHALKBOARD SECTION */
+
+#youtube-container{
+	height: 400px;
+}
+#info-block{
+	width: 410px;
+	float: left;
+}
+#eta-yt-subscribe{
+	margin: 0 auto;
+	width: 425px;
+	margin-left: 240px;
+}
+
+/* PRODUCT RIBBONS */
+
+.ribbon{
+	min-height: 100px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.product-info{
+	background: white;
+	border-radius: 10px;
+}
+.prod-desc{
+	font-family: asapregular;
+	}
+	.prod-desc p{
+		font-size: 16px;
+	}
+.img-right{
+	float: right;
+	position: relative;
+	right: -100px;
+	top: -60px;	
+}
+.img-left{
+	float: left;
+	position: relative;
+	left: -100px;
+	top: -60px;
+}
+
+/* SKYPROFIT */
+
+#sp-rib{
+	box-shadow: inset 0px 60px 500px -70px #6ab5e4;	
+}
+
+/* RESTOCK */
+
+.dr-rib{
+	box-shadow: inset 0px 60px 500px -70px #2e80c0;
+}
+
+/* REPORT */
+
+.dre-rib{
+	box-shadow: inset 0px 60px 500px -70px #55b449;
+}
+
+/* INVENTORY */
+
+.di-rib{
+	box-shadow: inset 0px 60px 500px -70px #8052a0;
+}
+
+/* FOOTER */
+footer{
+	height: 35px;
+}
+#instock-logo{
+	float: right;
+}
+
+
+/* YOUTUBE */
+
+#player {
+    width: 900px;
+    height: 380px;
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    border: none;
+}
+
+.youtube .carousel {
+	width: 200px;
+	height: 100%;
+	overflow: auto;
+	position: absolute;
+	right: 0px;
+	z-index: 3;
+}
+.youtube .thumbnail {
+	display: none;
+    margin: 0 10px;
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.yt-descript {
+	color: #414243;
+	margin: 0;
+	font-family: arial;
+	font-weight: 800;
+	padding: 10px 5px;
+	border-bottom: 1px solid #ccc;
+}
+.yt-descript:hover {
+	color: #414243;
+	background: #ccc;
+
+}
+
+.youtube iframe.player {
+	width: 673px;
+	height: 378px;
+	overflow: auto;
+	border: 0;
+}

@@ -1,0 +1,145 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="eta.css">
+	<link rel="stylesheet" href="asap/font.css">
+	
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	<script src="js/eta.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="/resources/demos/style.css" />
+	<script>
+		$(function() {
+		$( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+		$( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+		});
+	</script>
+	<style type="text/css">
+		* 										{ outline: none; }
+		.ui-tabs-vertical 						{ width: 100%; }
+		.ui-tabs-vertical .ui-tabs-nav 			{ padding: 100px 0 37px 0;float: left;width: 222px; }
+		.ui-tabs-vertical .ui-tabs-nav li	 	{ clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+		.ui-tabs-vertical .ui-tabs-nav li a 	{ display:block; }
+		.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+		.ui-tabs-vertical .ui-tabs-panel 		{ padding: 1em; float: right; width: 632px;min-height: 250px;}		
+		.ui-widget-header						{ background: transparent !important; border: none;}
+		.ui-widget-content						{ border: 5px solid #424344 !important; box-shadow: inset 0 0 10px rgba(0,0,0,0.5); border-radius: 5px;}
+		#tabs									{ border: none !important; box-shadow: 0 0 0 0;margin: 70px 0 0 0;}
+		.ui-tabs .ui-tabs-nav li				{ margin: 0 0 5px 0 !important;}
+		.ui-tabs-anchor,.ui-widget-content a 	{ color: white !important;}
+		.ui-state-default						{ color: white !important;background: #424344 !important;}
+		.ui-state-focus							{ background: #424344 !important;}
+		.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active{padding-right: 0 !important; color: #6ab545 !important; }
+		.ui-state-hover							{ color: #6ab545;}
+	</style>
+
+
+</head>
+<body>
+	
+	<div class="stretch main-gray">
+		
+		<header class="center">
+	
+			<img id="eta-logo" width="200" src="i/easy-to-achieve-logo-flat.png" alt="Easy To Achieve"/>
+
+			<a class="social-btn" href="http://"><img src="i/eta-btn-youtube.png" alt="YouTube"/></a>
+			
+			<a class="social-btn" href="http://"><img src="i/eta-btn-twitter.png" alt="Twitter"/></a>
+			
+			<a class="social-btn" href="http://"><img src="i/eta-btn-facebook.png" alt="Facebook"/></a>
+			
+			<a class="social-btn" href="http://"><img src="i/eta-btn-pinterest.png" alt="Pinterest"/></a>
+	
+		</header>
+		
+	</div>
+
+	<div class="stretch">
+	
+		<div class="center">
+	
+			<h1 id="tagline">Easy to use tools for your challenging business</h1>
+	
+		</div>
+		
+	</div>
+		
+	<div class="stretch">
+	
+		<div class="center" id="min-height">	
+			
+			<div id="tabs">
+			  <ul>
+			    <li><a href="#tabs-1">Terms of Use</a></li>
+			    <li><a href="#tabs-2">Privacy Policy</a></li>
+			    <li><a href="#tabs-3">EULA</a></li>
+			  </ul>
+			  <div id="tabs-1">
+			    <h2>Terms of Use</h2>
+			    <iframe width="649" height="600" style="padding: 0px;border: none; background-color: white;" src="https://s3.amazonaws.com/easytoachieve/docs/terms-of-use.htm"></iframe>
+			  </div>
+			  <div id="tabs-2">
+			    <h2>Privacy Policy</h2>
+				<iframe width="649" height="600" style="padding: 0px;border: none; background-color: white;" src="https://s3.amazonaws.com/easytoachieve/docs/privacy-policy.htm"></iframe>
+			  </div>
+			  <div id="tabs-3">
+			 	<h2>EULA</h2>
+				<iframe width="649" height="600" style="padding: 0px;border: none; background-color: white;" src="https://s3.amazonaws.com/easytoachieve/docs/eula-002.htm"></iframe>			  
+				</div>
+			</div>
+
+		</div>
+		
+	</div>		
+	
+
+	<div class="stretch dark-gray grn-border-bottom">
+	
+		<footer class="center">
+	
+			<img id="instock-logo" src="i/instock-logo.png" alt="InStock Companies"/>
+	
+		</footer>
+		
+	</div>
+	<script src="js/jquery.smooth-scroll.js"></script>
+	<script src="js/jquery.ba-bbq.js"></script>
+	<script>
+	    $(document)
+	    .on('click', 'a[href*="#"]', function() {
+	      if ( this.hash ) {
+	        $.bbq.pushState( '#/' + this.hash.slice(1) );
+	        return false;
+	      }
+	    })
+	    .ready(function() {
+	      $(window).bind('hashchange', function(event) {
+	        var tgt = location.hash.replace(/^#\/?/,'');
+	        if ( document.getElementById(tgt) ) {
+	          $.smoothScroll({scrollTarget: '#' + tgt});
+	        }
+	      });
+	
+	      $(window).trigger('hashchange');
+	    });
+	</script>
+		
+	
+</body>
+</html>
+ 
